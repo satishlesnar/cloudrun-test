@@ -29,7 +29,7 @@ spec:
         app: nginx-1
     spec:
       containers:
-      - image: gcr.io/[PROJECT_ID]/la-container-image:v1
+      - image: gcr.io/sample-project-444310/la-container-image:v1
         imagePullPolicy: IfNotPresent
         name: la-container-image
         resources: {}
