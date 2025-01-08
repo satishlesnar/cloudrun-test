@@ -18,4 +18,4 @@ steps:
 images:
   - gcr.io/$PROJECT_ID/amazingapp:$COMMIT_SHA
 
-logs_bucket: gs://
+logs_bucket: gs://amazing-bucket-1
